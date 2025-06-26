@@ -52,7 +52,7 @@ const Navbar = () => {
           </div>
 
           {/* THEME SETUP */}
-          <label className="swap swap-rotate md:order-3">
+          <label className="swap swap-rotate order-3">
             <input type="checkbox" onChange={handleTheme} />
             {/* sun icon */}
             <BsSunFill className="swap-on h-4 w-4" />
@@ -61,7 +61,7 @@ const Navbar = () => {
           </label>
 
           {/*------------- MENU HAMBURGUER JUST FOR SM--------- */}
-          <div className="drawer drawer-end lg:hidden">
+          <div className="drawer drawer-end lg:hidden ">
             <input
               id="my-drawer-4"
               type="checkbox"
