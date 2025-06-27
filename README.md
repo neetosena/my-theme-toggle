@@ -1,12 +1,60 @@
-# React + Vite
+# 🌗 Light/Dark Theme Toggle App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project demonstrating a **dark/light theme toggle** using **DaisyUI** (built on Tailwind CSS), with theme **persistence** across sessions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌙 Light/Dark mode toggle
+- 💾 Theme preference saved in `localStorage`
+- ⚡ Built with Vite for fast development
+- 🎨 DaisyUI for Tailwind-based components
+- 🧭 React Router setup
+- 🌟 Responsive and clean UI
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Router](https://reactrouter.com/)
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── index.jsx
+│ ├── Navbar.jsx
+│ └── NavLinks.jsx
+├── utils/
+│ └── index.jsx
+└── main.jsx
+
+shell
+Copy
+Edit
+
+## 🧪 How to Run
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+🔗 Live Demo
+🌐 View it live on Azure
+https://blue-meadow-08d428703.6.azurestaticapps.net
+
+Feel free to fork or clone this project to learn and build your own variations!
+
+yaml
+Copy
+Edit
+
+---
+```
